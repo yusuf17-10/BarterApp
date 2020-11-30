@@ -8,8 +8,8 @@ export default class SignUpLoginScreen extends React.Component{
     constructor(){
         super();
         this.state={
-            emailId='',
-            password=''
+            emailId:'',
+            password:''
         }
     }
 
