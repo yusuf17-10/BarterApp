@@ -56,7 +56,7 @@ export default class SignUpLoginScreen extends React.Component{
             <View style={{alignItems:'center'}}>
             <TouchableOpacity 
              style={styles.button}
-             onPress = {()=>{this.userLogin(this.state.emailId , this.state.password)}}
+             onPress = {()=>{this.userLogin(this.state.username , this.state.password)}}
              >
             <Text> style={{color:'aqua', fontSize:18, fontWeight:'bold',marginLeft:55,}}LOGIN</Text>
 
@@ -64,7 +64,7 @@ export default class SignUpLoginScreen extends React.Component{
 
             <TouchableOpacity 
              style={styles.button}
-             onPress = {()=>{this.userSignUp(this.state.emailId , this.state.password)}}
+             onPress = {()=>{this.userSignUp(this.state.username , this.state.password)}}
              >
             <Text> style={{color:'aqua', fontSize:18, fontWeight:'bold',marginLeft:55,}}SIGN UP</Text>
 
